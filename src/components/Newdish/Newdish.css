@@ -1,0 +1,37 @@
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.newdish-content {
+  animation: slideInRight 1s ease-in-out;
+}
+body {
+  background: white;
+}
+
+/* .new-button {
+  padding: 15px 30px;
+  font-size: 1.4rem;
+  color: white;
+  background: linear-gradient(135deg, #ff7a18, #af002d 90%);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.481);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+} */
+
+.banner-button:hover {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.621);
+  transform: translateY(-5px) scale(1.05);
+}
